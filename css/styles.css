@@ -1,3 +1,34 @@
-body {
-    background-color: tomato;
+
+/* цвет текста основной  #212121 */
+/* цвет текста вторичный  #757575 */
+/* акцент #2196F3 */
+/* цвет текста герой #FFFFFF */
+/* цвет лого #000000 */
+/* цвет сылок в подвале rgba(255, 255, 255, 0.6) */
+/* цвет фота  */
+
+
+
+.body {
+    background-color: #E5E5E5;
+    color: #212121;
 }
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: #000000;
+}
+
+/* Site nav */
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: #2196F3;
+}
+
