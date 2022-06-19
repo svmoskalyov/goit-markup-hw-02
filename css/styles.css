@@ -1,5 +1,5 @@
 :root {
-    --background-body-color: #E5E5E5;
+    --background-body-color: #ffffff;
     --background-header-footer-color: #2F303A;
     --background-team-color: #F5F4FA;
     --text-primary-color: #212121;
@@ -134,6 +134,28 @@ body {
 }
 
 
+/* Чем мы занимаемся */
+
+
+/* Наша команда */
+.team {
+    background-color: var(--background-team-color);
+}
+
+.team .specialist {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team .position {
+    color: var(--text-secondory-color);
+
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
 
 
 
