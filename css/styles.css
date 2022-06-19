@@ -1,19 +1,19 @@
 :root {
     --background-color: #E5E5E5;
     --background-hat-color: #2F303A;
-    --background-our-team-color: #F5F4FA;
+    --background-team-color: #F5F4FA;
     --background-footer-color: #2F303A;
-    --primary-text-color: #212121;
-    --secondory-text-color: #757575;
-    --logo-text-color: #000000;
-    --hat-text-color: #ffffff;
-    --footer-link-color: rgba(255, 255, 255, 0.6);
+    --text-primary-color: #212121;
+    --text-secondory-color: #757575;
+    --text-logo-color: #000000;
+    --text-hat-color: #ffffff;
+    --link-footer-color: rgba(255, 255, 255, 0.6);
     --accent-color: #2196F3;
 }
 
 body {
+    color: var(--text-primary-color);
     background-color: var(--background-color);
-    color: var(--primary-text-color);
 }
 
 .list {
@@ -21,12 +21,18 @@ body {
 }
 
 .logo {
-    color: var(--logo-text-color);
+    color: var(--text-logo-color);
 }
+
+.button {
+    color: var(--text-hat-color);
+    background-color: var(--accent-color);
+}
+
 
 /* Site nav */
 .site-nav .link {
-    color: var(--primary-text-color);
+    color: var(--text-primary-color);
 }
 
 .site-nav .link:hover,
