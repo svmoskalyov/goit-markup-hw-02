@@ -32,7 +32,7 @@ body {
 }
 
 
-/* Логотип */
+/* Верхняя линия */
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -46,11 +46,7 @@ body {
     color: var(--text-logo-header-color);
 }
 
-.logo.footer {
-    color: var(--text-white-color);
-}
-
-/* Site nav */
+/* Навигация */
 .site-nav .link {
     color: var(--text-primary-color);
 
@@ -158,4 +154,23 @@ body {
 }
 
 
+/* Подвал text-decoration: none;*/
+footer {
+    background-color: var(--background-header-footer-color);
+}
 
+.address-list .link,
+.address-list .location {
+    color: var(--link-footer-color);
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+
+    text-decoration: none;
+}
+
+.logo.footer,
+.address-list .location {
+    color: var(--text-white-color);
+}
