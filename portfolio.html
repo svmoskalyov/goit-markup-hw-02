@@ -4,23 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Верхняя линия -->
-    <header>
-      <a href="" class="logo" lang="en">WebStudio</a>
+    <header class="header">
+      <a class="logo" href="" lang="en"><span class="style-logo">Web</span>Studio</a>
+
       <nav>
         <ul class="site-nav list">
-          <li><a href="./index.html" class="link">Студия</a></li>
-          <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+          <li><a class="link" href="./index.html">Студия</a></li>
+          <li><a class="link current" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <ul class="contacts list">
+        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
     </header>
 
     <!-- Уникальный контент страницы -->
@@ -29,12 +36,12 @@
         <h1>Портфолио</h1>
 
         <!-- Фильтры на карточки -->
-        <ul>
-          <li><button type="button">one buttun</button></li>
-          <li><button type="button">two buttun</button></li>
-          <li><button type="button">three buttun</button></li>
-          <li><button type="button">four buttun</button></li>
-          <li><button type="button">five buttun</button></li>
+        <ul class="filtres list">
+          <li><button class="button default" type="button">one buttun</button></li>
+          <li><button class="button default" type="button">two buttun</button></li>
+          <li><button class="button default" type="button">three buttun</button></li>
+          <li><button class="button default" type="button">four buttun</button></li>
+          <li><button class="button default" type="button">five buttun</button></li>
         </ul>
 
         <!-- Карточки -->
@@ -52,14 +59,14 @@
     </main>
 
     <!-- Подвал -->
-    <footer>
-      <a href="" lang="en">WebStudio</a>
+    <footer class="footer">
+      <a class="logo" ref="" lang="en"><span class="style-logo">Web</span>Studio</a>
+
       <address>
-        <ul>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
+        <ul class="address-list list">
           <li>
             <a
+              class="location"
               href="https://goo.gl/maps/vhETYk33VZoTdQni7"
               target="_blank"
               rel="noopener noreferrer"
@@ -67,6 +74,8 @@
               г. Киев, пр-т Леси Украинки, 26
             </a>
           </li>
+          <li><a class="link" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
     </footer>
