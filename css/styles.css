@@ -1,7 +1,7 @@
 :root {
-    --background-body-color: #ffffff;
-    --background-header-footer-color: #2F303A;
-    --background-team-color: #F5F4FA;
+    --bg-body-color: #ffffff;
+    --bg-hero-color: #2F303A;
+    --bg-team-color: #F5F4FA;
     --text-primary-color: #212121;
     --text-secondory-color: #757575;
     --text-logo-header-color: #000000;
@@ -12,7 +12,7 @@
 
 body {
     color: var(--text-primary-color);
-    background-color: var(--background-body-color);
+    background-color: var(--bg-body-color);
 
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
@@ -84,10 +84,10 @@ body {
     color: var(--accent-color);
 }
 
-
+hero
 /* Герой */
 .hero {
-    background-color: var(--background-header-footer-color);
+    background-color: var(--bg-hero-color);
 }
 
 .hero-title {
@@ -135,7 +135,7 @@ body {
 
 /* Наша команда */
 .team {
-    background-color: var(--background-team-color);
+    background-color: var(--bg-team-color);
 }
 
 .team .specialist {
@@ -156,7 +156,7 @@ body {
 
 /* Подвал text-decoration: none;*/
 .footer {
-    background-color: var(--background-header-footer-color);
+    background-color: var(--bg-hero-color);
 }
 
 .address-list .link,
