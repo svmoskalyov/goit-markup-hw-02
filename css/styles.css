@@ -46,6 +46,10 @@ body {
     color: var(--text-logo-header-color);
 }
 
+.style-logo {
+    color: var(--accent-color);
+}
+
 /* Навигация */
 .site-nav .link {
     color: var(--text-primary-color);
