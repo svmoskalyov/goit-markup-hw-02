@@ -174,3 +174,10 @@ hero
 .address-list .location {
     color: var(--text-white-color);
 }
+
+.address-list .link:hover,
+.address-list .location:hover,
+.address-list .link:focus,
+.address-list .location:focus {
+    color: var(--accent-color);
+}
