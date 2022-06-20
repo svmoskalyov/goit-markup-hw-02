@@ -84,7 +84,7 @@ body {
     color: var(--accent-color);
 }
 
-hero
+
 /* Герой */
 .hero {
     background-color: var(--bg-hero-color);
@@ -110,6 +110,8 @@ hero
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+
+    cursor: pointer;
 }
 
 
@@ -154,7 +156,7 @@ hero
 }
 
 
-/* Подвал text-decoration: none;*/
+/* Подвал */
 .footer {
     background-color: var(--bg-hero-color);
 }
@@ -176,8 +178,8 @@ hero
 }
 
 .address-list .link:hover,
-.address-list .location:hover,
 .address-list .link:focus,
+.address-list .location:hover,
 .address-list .location:focus {
     color: var(--accent-color);
 }
