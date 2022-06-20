@@ -1,3 +1,4 @@
+/* Объявление глобальных переменных */
 :root {
     --bg-body-color: #ffffff;
     --bg-hero-color: #2F303A;
@@ -10,21 +11,23 @@
     --accent-color: #2196F3;
 }
 
+/* Тело страницы */
 body {
-    color: var(--text-primary-color);
-    background-color: var(--bg-body-color);
-
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+    color: var(--text-primary-color);
+
+    background-color: var(--bg-body-color);
 }
 
+/* Сброс стилей */
 .list {
     list-style: none;
 }
 
+/* Заголовки */
 .title {
     color: var(--text-primary-color);
-
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -38,7 +41,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-
     text-decoration: none;
 }
 
@@ -53,12 +55,10 @@ body {
 /* Навигация */
 .site-nav .link {
     color: var(--text-primary-color);
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
     text-decoration: none;
 }
 
@@ -74,12 +74,10 @@ body {
 /* Контакты: почта, моб. телефон */
 .contacts .link {
     color: var(--text-secondory-color);
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
     text-decoration: none;
 }
 
@@ -96,7 +94,6 @@ body {
 
 .hero-title {
     color: var(--text-white-color);
-
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -107,13 +104,13 @@ body {
 
 .hero>.button {
     color: var(--text-white-color);
-    background-color: var(--accent-color);
-
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+
+    background-color: var(--accent-color);
 
     cursor: pointer;
 }
@@ -122,7 +119,6 @@ body {
 /* Особенности */
 .features .featur-text {
     color: var(--text-secondory-color);
-
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -153,7 +149,6 @@ body {
 
 .team .position {
     color: var(--text-secondory-color);
-
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -168,11 +163,9 @@ body {
 .address-list .link,
 .address-list .location {
     color: var(--link-footer-color);
-
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-
     text-decoration: none;
 }
 
