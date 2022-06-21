@@ -24,7 +24,7 @@ body {
     list-style: none;
 }
 
-/* Кнопки */
+/* Кнопка родитель */
 .button {
     font-family: inherit;
     color: var(--text-primary-color);
@@ -32,20 +32,7 @@ body {
     cursor: pointer;
 }
 
-.button.default {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-}
-
-.button.default:hover,
-.button.default:focus {
-    color: var(--text-white-color);
-    background-color: var(--accent-color);
-}
-
-
-/* Заголовки */
+/* Заголовок родитель */
 .title {
     font-weight: 700;
     font-size: 36px;
@@ -54,6 +41,7 @@ body {
 }
 
 
+/* Главная страница */
 /* Верхняя линия */
 .logo {
     font-family: Raleway, sans-serif;
@@ -192,3 +180,23 @@ body {
 .address-list .location:focus {
     color: var(--accent-color);
 }
+
+
+/* Портфолио */
+/* Фильтры на карточки */
+.button.default {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.button.default:hover,
+.button.default:focus {
+    color: var(--text-white-color);
+    background-color: var(--accent-color);
+}
+
+/* Карточки */
+
+
+
