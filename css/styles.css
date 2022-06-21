@@ -197,6 +197,20 @@ body {
 }
 
 /* Карточки */
+.cards .link {
+    color: var(--text-primary-color);
+    text-decoration: none;
+}
 
+.cards .project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
 
-
+.cards .category {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--text-secondory-color);
+}
